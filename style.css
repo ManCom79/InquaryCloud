@@ -1,0 +1,1007 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gotham;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(font/Gotham.ttf);
+}
+
+img { max-width: 100%; height: auto; }
+
+.wrapper {
+    position: relative;
+}
+
+.navbar {
+    margin: 0 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 950;
+}
+
+nav {
+    background-color: #ffeffd;
+    height: 100px;
+    padding-right: 80px;
+}
+
+.logo {
+    height: 60px;
+    padding: 20px 0 0 60px;
+    float: left;
+}
+
+ul {
+    padding-top: 42px;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: hotpink; 
+}
+
+.navlink {
+    text-decoration: none;
+    color: #141414;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#intro {
+    margin-top: 100px;
+    text-align: center;
+    height: 750px;
+    background-color: #ffeffd;
+}
+
+.floatleft {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.large {
+    font-size: 54px;
+    font-weight: 900;
+    text-align: left;
+    padding: 150px 0 0 85px;
+    color: #54164d;
+    line-height: 64px;
+    letter-spacing: 1px;
+}
+
+.para {
+    text-align: left;
+    padding: 30px 0 0 85px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.floatright {
+    float: right;
+    height: 400px;
+    background-color: lightcyan;
+    width:  50%;
+}
+
+.indeximage {
+    padding-top: 125px;
+    padding-left: 115px;
+    width: 430px;
+    z-index: 850;
+}
+
+.frame1 {
+    margin-top: -550px;
+    padding-right: -25px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    border-style: solid;
+    border-width: 1px;
+    color: #54164d;
+    z-index: -1;
+}
+
+.frame2 {
+    margin-top: -150px;
+    margin-right: 250px;
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border-style: solid;
+    border-width: 1px;
+    color: #54164d;
+    z-index: -1;
+}
+
+#features {
+    background-color: #ffffff;
+    padding-top: 120px;
+    height: 550px;
+}
+
+.feat_title {
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #54164d;
+}
+
+.h1_feat {
+    text-align: left;
+    padding: 30px 50px 0 85px;
+    color: #54164d;
+}
+
+.para_feat {
+    text-align: left;
+    padding: 30px 50px 0 85px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.feat_image {
+    width: 90%;
+    padding-top: 10px;
+}
+
+#product {
+    height: 600px;
+    padding-top: 120px;
+    background-color: #54164d;
+}
+
+.third {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.prod_title {
+    color: #ffffff;
+    background-color: #54164d;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.h2_prod {
+    color: #ffffff;
+}
+
+.p_prod {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.index_icon {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.measure {
+    width: 100%;
+}
+
+#templates {
+    height: 600px;
+    padding-top: 120px;
+    background-color: #54164d;
+}
+
+.physics {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.topic {
+    align-items: center;
+    display: inline-flex;
+    height: 50px;
+}
+
+.chemistry {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.biology {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.electricity_icon {
+}
+
+.template_link {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+/* Media Queries: Mobile 1 */
+@media screen and (max-width: 320px) {
+    .navbar {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 950;
+    }
+    
+    nav {
+        background-color: #ffeffd;
+        height: 90px;
+        padding-right: 80px;
+    }
+    
+    .logo {
+        height: 60px;
+        padding: 20px 0 0;
+        position: absolute;
+    }
+    
+    ul {
+        padding-top: 80px;
+    }
+    
+    ul li {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 35px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+        height: 1050px;
+        background-color: #ffeffd;
+    }
+    
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .large {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding: 150px 0 0 0;
+        color: #54164d;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .para {
+        text-align: center;
+        padding: 30px 10px 0 ;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .indeximage {
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 400px;
+        z-index: 850;
+    }
+
+    .frame1 {
+        display: none;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    #features {
+        background-color: #ffffff;
+        padding-top: 60px;
+        height: 830px;
+    }
+
+    .para_feat {
+        text-align: left;
+        padding: 30px 50px 0 110px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .h1_feat {
+        text-align: center;
+        padding: 0px 0px 0 0px;
+        color: #54164d;
+    }
+
+    .para_feat {
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+
+    .measure {
+        padding-top: 50px;
+    }
+
+    #templates {
+        height: 700px;
+        padding-top: 120px;
+        background-color: #54164d;
+    }
+
+    #product {
+        height: 1000px;
+        padding-top: 50px;
+        background-color: #54164d;
+    }
+
+    .third {
+        width: 90%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .prod_title {
+        color: #ffffff;
+        background-color: #54164d;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .physics {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .topic {
+        align-items: center;
+        display: inline-flex;
+        height: 50px;
+    }
+    
+    .chemistry {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .biology {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Media Queries: Mobile 1 */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .navbar {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 950;
+    }
+    
+    nav {
+        background-color: #ffeffd;
+        height: 90px;
+        padding-right: 80px;
+    }
+    
+    .logo {
+        height: 60px;
+        padding: 20px 0 0;
+        position: absolute;
+    }
+    
+    ul {
+        padding-top: 80px;
+    }
+    
+    ul li {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 35px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+        height: 1100px;
+        background-color: #ffeffd;
+    }
+    
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .large {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding: 150px 0 0 0;
+        color: #54164d;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .para {
+        text-align: center;
+        padding: 30px 10px 0 ;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .indeximage {
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 400px;
+        z-index: 850;
+    }
+
+    .frame1 {
+        display: none;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    #features {
+        background-color: #ffffff;
+        padding-top: 60px;
+        height: 800px;
+    }
+
+    .para_feat {
+        text-align: left;
+        padding: 30px 50px 0 110px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .h1_feat {
+        text-align: center;
+        padding: 0px 0px 0 0px;
+        color: #54164d;
+    }
+
+    .para_feat {
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+
+    .measure {
+        padding-top: 50px;
+    }
+
+    #templates {
+        height: 700px;
+        padding-top: 120px;
+        background-color: #54164d;
+    }
+
+    #product {
+        height: 1000px;
+        padding-top: 50px;
+        background-color: #54164d;
+    }
+
+    .third {
+        width: 90%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .prod_title {
+        color: #ffffff;
+        background-color: #54164d;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .physics {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .topic {
+        align-items: center;
+        display: inline-flex;
+        height: 50px;
+    }
+    
+    .chemistry {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .biology {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Media Queries: Mobile 2 */
+@media screen and (min-width: 376px) and (max-width: 420px) {
+    .navbar {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 950;
+    }
+    
+    nav {
+        background-color: #ffeffd;
+        height: 90px;
+        padding-right: 80px;
+    }
+    
+    .logo {
+        height: 60px;
+        padding: 20px 0 0;
+        position: absolute;
+    }
+    
+    ul {
+        padding-top: 80px;
+    }
+    
+    ul li {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 35px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+        height: 1100px;
+        background-color: #ffeffd;
+    }
+    
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .large {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding: 150px 0 0 0;
+        color: #54164d;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .para {
+        text-align: center;
+        padding: 30px 10px 0 ;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .indeximage {
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 400px;
+        z-index: 850;
+    }
+
+    .frame1 {
+        display: none;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    #features {
+        background-color: #ffffff;
+        padding-top: 60px;
+        height: 800px;
+    }
+
+    .para_feat {
+        text-align: left;
+        padding: 30px 50px 0 110px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .h1_feat {
+        text-align: center;
+        padding: 0px 0px 0 0px;
+        color: #54164d;
+    }
+
+    .para_feat {
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+
+    .measure {
+        padding-top: 50px;
+    }
+
+    #templates {
+        height: 700px;
+        padding-top: 120px;
+        background-color: #54164d;
+    }
+
+    #product {
+        height: 1000px;
+        padding-top: 50px;
+        background-color: #54164d;
+    }
+
+    .third {
+        width: 90%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .prod_title {
+        color: #ffffff;
+        background-color: #54164d;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .physics {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .topic {
+        align-items: center;
+        display: inline-flex;
+        height: 50px;
+    }
+    
+    .chemistry {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .biology {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Media Queries: Mobile 3 */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+    .navbar {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 950;
+    }
+    
+    nav {
+        background-color: #ffeffd;
+        height: 90px;
+        padding-right: 80px;
+    }
+    
+    .logo {
+        height: 60px;
+        padding: 20px 0 0;
+        position: absolute;
+    }
+    
+    ul {
+        padding-top: 80px;
+    }
+    
+    ul li {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 35px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+        height: 950px;
+        background-color: #ffeffd;
+    }
+    
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .large {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding: 150px 0 0 0;
+        color: #54164d;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .para {
+        text-align: center;
+        padding: 30px 0 0 0;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .indeximage {
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 400px;
+        z-index: 850;
+    }
+
+    .frame1 {
+        display: none;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    #features {
+        background-color: #ffffff;
+        padding-top: 60px;
+        height: 800px;
+    }
+
+    .para_feat {
+        text-align: left;
+        padding: 30px 50px 0 110px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .h1_feat {
+        text-align: center;
+        padding: 0px 0px 0 0px;
+        color: #54164d;
+    }
+
+    .para_feat {
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+
+    .measure {
+        padding-top: 50px;
+    }
+
+    #templates {
+        height: 700px;
+        padding-top: 120px;
+        background-color: #54164d;
+    }
+
+    #product {
+        height: 1000px;
+        padding-top: 50px;
+        background-color: #54164d;
+    }
+
+
+    
+    .third {
+        width: 90%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .physics {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .topic {
+        align-items: center;
+        display: inline-flex;
+        height: 50px;
+    }
+    
+    .chemistry {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .biology {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (min-device-width: 768px) and (max-width: 1060px) {
+    .navbar {
+        margin: 0 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: 950;
+    }
+    
+    nav {
+        background-color: #ffeffd;
+        height: 90px;
+        padding-right: 80px;
+    }
+    
+    .logo {
+        height: 60px;
+        padding: 20px 0 0;
+        position: absolute;
+    }
+    
+    ul {
+        padding-top: 80px;
+    }
+    
+    ul li {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 35px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 0px;
+        text-align: center;
+        height: 950px;
+        background-color: #ffeffd;
+    }
+    
+    .floatleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .large {
+        font-size: 36px;
+        font-weight: 900;
+        text-align: center;
+        padding: 150px 0 0 0;
+        color: #54164d;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    
+    .para {
+        text-align: center;
+        padding: 30px 0 0 0;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .indeximage {
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 400px;
+        z-index: 850;
+    }
+
+    .frame1 {
+        display: none;
+    }
+
+    .frame2 {
+        display: none;
+    }
+
+    #features {
+        background-color: #ffffff;
+        padding-top: 60px;
+        height: 800px;
+    }
+
+    .para_feat {
+        text-align: left;
+        padding: 30px 50px 0 110px;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .h1_feat {
+        text-align: center;
+        padding: 0px 0px 0 0px;
+        color: #54164d;
+    }
+
+    .para_feat {
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    }
+
+    .measure {
+        padding-top: 50px;
+    }
+
+    #templates {
+        height: 700px;
+        padding-top: 120px;
+        background-color: #54164d;
+    }
+
+}
